@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import { useState } from "react";
 import "./App.css";
+import Average from "./Average";
 import Counter from "./Counter";
 import Info from "./Info";
 
@@ -19,6 +20,8 @@ function App() {
         View Button
       </button>
       {view && <Info />}
+      <hr />
+      <Average />
     </div>
   );
 }
